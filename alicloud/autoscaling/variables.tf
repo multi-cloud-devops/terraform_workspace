@@ -32,7 +32,7 @@ variable "instance_tags" {
   type        = map(string)
 
   default = {
-    created_by   = "Terraform"
-    created_from = "module-tf-alicloud-ecs-instance"
+    project_name   = "project1"
+    cluster_name = "cluster1"
   }
 }

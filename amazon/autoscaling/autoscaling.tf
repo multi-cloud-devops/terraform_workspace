@@ -207,16 +207,6 @@ resource "aws_autoscaling_group" "web" {
 
 tags = concat(
   [
-    {
-      "key" = "project"
-      "value" = "project1"
-      "propagate_at_launch" = true
-    },
-    {
-      "key" = "cluster"
-      "value" = "cluster1"
-      "propagate_at_launch" = true
-    },
   ],
   var.instance_tags,
 )
