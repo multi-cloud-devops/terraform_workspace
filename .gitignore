@@ -1,0 +1,10 @@
+.idea
+.idea/
+terraform_playbooks
+ansible_playbooks
+.vscode/
+.env
+__pycache__/
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
